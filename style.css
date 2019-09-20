@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "chandas";
+    src: url(fonts/chandas.ttf);
+}
+
+table{
+    width: 250px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 30px;
+    font-family: 'chandas';
+    background: #000;
+    text-align: center;
+}
+
+#visor{
+    background-color:black; 
+    color: white;
+    vertical-align: middle;
+    text-align: right;
+    width: 95%;
+    height: 100px;
+    font-size: 50px;
+    border: none;
+}
+
+#igual{
+    width: 60px;
+    height: 60px;
+    border-radius: 45px;
+    border: none;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    background-color: darkgreen;
+}
+
+#percnt{
+    border-radius: 45px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    font-size: 30px;
+    color: darkslategray;
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;
+}
+
+#clear{
+    width: 120px;
+    height: 60px;
+    border-radius: 45px;
+    border: none;
+    font-size: 28px;
+    color: darkslategray;
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;
+}
+
+
+
+.numero{
+    border-radius: 45px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    background-color: darkslategray
+   
+}
+
+.zerinho{
+    width: 120px;
+    height: 60px;
+    border-radius: 45px;
+    border: none;
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    background-color: darkslategray;
+}
+
+
+.funcao{
+    border-radius: 45px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    background-color:  #ff6100;
+}

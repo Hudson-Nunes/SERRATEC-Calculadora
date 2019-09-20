@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-br"      >
+    <head>
+        <title>Calc-Test</title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+    </head>
+   
+    <body>
+        <form name="Calc">
+            <div>
+                <table class="table">
+                    
+                    <tr>
+                        <td colspan="4">
+                            <input  id="visor" type="text"  name="visor" placeholder="0">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input id="clear" type="button" name="clear" value=" C  " onClick="Calc.visor.value = ''"></td>
+                        <td><input id="percnt" type="button" name="percnt" value="  %  " onClick="Calc.visor.value += ' /100 '"></td>
+                        <td><input class="funcao" type="button" name="div" value="  /  " onClick="Calc.visor.value += ' / '"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="numero" type="button" name="seven" value="  7  " onClick="Calc.visor.value += '7'"></td>
+                        <td><input class="numero" type="button" name="eight" value="  8  " onClick="Calc.visor.value += '8'"></td>    
+                        <td><input class="numero" type="button" name="nine" value="  9  " onClick="Calc.visor.value += '9'"></td>
+                        <td><input class="funcao" type="button" name="times" value="  X  " onClick="Calc.visor.value += ' * '"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="numero" type="button" name="four" value="  4  " onClick="Calc.visor.value += '4'"></td>
+                        <td><input class="numero" type="button" name="five" value="  5  " onClick="Calc.visor.value += '5'"></td>
+                        <td><input class="numero" type="button" name="six"  value="  6  " onClick="Calc.visor.value += '6'"></td>
+                        <td><input class="funcao" type="button" name="minus" value="  -  " onClick="Calc.visor.value += ' - '"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="numero" type="button" name="one"	value="  1  " onClick="Calc.visor.value += '1'"></td>
+                        <td><input class="numero" type="button" name="two" value="  2  " onClick="Calc.visor.value += '2'"></td>
+                        <td><input class="numero" type="button" name="three" value="  3  " onClick="Calc.visor.value += '3'"></td>
+                        <td><input class="funcao" type="button" name="plus" value="  +  " onClick="Calc.visor.value += ' + '"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input class="zerinho" type="button" name="zero" value="  0  " onClick="Calc.input.value += '0'"></td>
+                        <td><input class="numero" type="button" name="point" value="  .  " onClick="Calc.input.value += '.'"></td>
+                        <td><input class="funcao" type="button" name="DoIt" value="  =  " onClick="Calc.visor.value = eval(Calc.visor.value)"></td>
+                    </tr> 
+                </table>
+            </div>
+        </form>
+    </body>
+</html>
